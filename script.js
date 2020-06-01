@@ -15,5 +15,8 @@ document.querySelector("#container").innerText = "Hello";
 
 //6) Add the class main to the div with a class of footer.
 
-let footer = document.querySelector('.footer');
+const footer = document.querySelector(".footer.main");
 footer.classList.add('main');
+
+//Question 7
+footer.classList.remove("main");
