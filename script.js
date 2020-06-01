@@ -1,3 +1,4 @@
-//5) Give the section with an id of container the text "Hello!".
+//6) Add the class main to the div with a class of footer.
 
-document.querySelector("#container").innerText = "Hello";
+let footer = document.querySelector('.footer');
+footer.classList.add('main');
