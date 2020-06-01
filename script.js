@@ -12,3 +12,8 @@ const ol_item_class_third = document.querySelector('ol .third');
 
 //5) Give the section with an id of container the text "Hello!".
 document.querySelector("#container").innerText = "Hello";
+
+//6) Add the class main to the div with a class of footer.
+
+let footer = document.querySelector('.footer');
+footer.classList.add('main');
