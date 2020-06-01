@@ -1,4 +1,2 @@
-//Question 7
-const footer = document.querySelector(".footer.main");
-footer.classList.remove("main");
-
+//Question 8
+const li = document.createElement('li');
