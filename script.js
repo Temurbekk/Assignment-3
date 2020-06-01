@@ -1,7 +1,7 @@
 //Question 1
 const firstElem = document.getElementById("container");
 
-//Question 2 
+//Question 2
 const secondElem = document.querySelector("#container");
 
 //Question 3 
@@ -20,3 +20,8 @@ footer.classList.add('main');
 
 //Question 7
 footer.classList.remove("main");
+
+const li = document.createElement("LI");
+const textnode = document.createTextNode("four");
+li.appendChild(textnode);
+ul.appendChild(li);
