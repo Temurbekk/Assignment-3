@@ -13,11 +13,13 @@ const ol_item_class_third = document.querySelector("ol .third");
 //5) Give the section with an id of container the text "Hello!".
 // document.querySelector("#container").innerText = "Hello";
 
+//Add li to the ul
 const ul = document.querySelector("ul");
 const li = document.createElement("LI");
 const textnode = document.createTextNode("four");
 li.appendChild(textnode);
 ul.appendChild(li);
+
 //6) Add the class main to the div with a class of footer.
 
 const footer = document.querySelector(".footer.main");
@@ -25,3 +27,5 @@ footer.classList.add("main");
 
 //Question 7
 footer.classList.remove("main");
+
+const classNameFooter = document.getElementsByClassName("footer").remove;
