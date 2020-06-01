@@ -1,2 +1,3 @@
-//Question 8
-const li = document.createElement('li');
+//Question 9
+let text = document.createTextNode("Four");
+li.appendChild(text);
