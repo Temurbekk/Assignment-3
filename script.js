@@ -11,7 +11,8 @@ const thirdElem = document.getElementsByClassName("second");
 const ol_item_class_third = document.querySelector("ol .third");
 
 //5) Give the section with an id of container the text "Hello!".
-// document.querySelector("#container").innerText = "Hello";
+const helloText = "Hello";
+document.querySelector("#container").append(helloText);
 
 //Add li to the ul
 const ul = document.querySelector("ul");
