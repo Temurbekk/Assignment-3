@@ -1,3 +1,3 @@
-//4) Select a list item with a class of third, but only the list item inside of the ol tag.
+//5) Give the section with an id of container the text "Hello!".
 
-const ol_item_class_third = document.querySelector('ol .third');
+document.querySelector("#container").innerText = "Hello";
