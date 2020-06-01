@@ -1,3 +1,6 @@
 //Question 1
-document.getElementById("container");
+const firstElem = document.getElementById("container");
+
+//Question 2 
+const secondElem = document.querySelector("#container");
 
