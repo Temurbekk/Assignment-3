@@ -20,6 +20,12 @@ const textnode = document.createTextNode("four");
 li.appendChild(textnode);
 ul.appendChild(li);
 
+const ol = document.querySelector("ol");
+const list = ol.getElementsByTagName("li");
+for (let i = 0; i < list.length; i++) {
+  list[i].style.backgroundColor = "green";
+}
+
 //6) Add the class main to the div with a class of footer.
 
 const footer = document.querySelector(".footer.main");
