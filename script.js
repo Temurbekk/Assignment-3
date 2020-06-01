@@ -14,6 +14,13 @@ const ol_item_class_third = document.querySelector("ol .third");
 const helloText = "Hello";
 document.querySelector("#container").append(helloText);
 
+//6) Add the class main to the div with a class of footer.
+const footer = document.querySelector(".footer.main");
+footer.classList.add("main");
+
+//Question 7
+footer.classList.remove("main");
+
 //Add li to the ul
 const ul = document.querySelector("ul");
 const li = document.createElement("LI");
@@ -26,13 +33,5 @@ const list = ol.getElementsByTagName("li");
 for (let i = 0; i < list.length; i++) {
   list[i].style.backgroundColor = "green";
 }
-
-//6) Add the class main to the div with a class of footer.
-
-const footer = document.querySelector(".footer.main");
-footer.classList.add("main");
-
-//Question 7
-footer.classList.remove("main");
 
 const classNameFooter = document.getElementsByClassName("footer").remove;
